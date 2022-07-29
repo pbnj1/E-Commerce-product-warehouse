@@ -1,3 +1,5 @@
+// PW ROUTES SHOULD BE SET UP IN THIS FILE NOW
+
 const router = require('express').Router();
 const { Product, Category, Tag, ProductTag } = require('../../models');
 

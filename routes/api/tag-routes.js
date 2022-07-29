@@ -1,3 +1,5 @@
+// PW STILL NEED TO DO PUT ROUTER IN THIS FILE
+
 const router = require('express').Router();
 const { Tag, Product, ProductTag } = require('../../models');
 
