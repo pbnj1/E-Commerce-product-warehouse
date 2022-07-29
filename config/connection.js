@@ -1,3 +1,5 @@
+// PW THIS FILE IS COMPLETE
+
 require('dotenv').config();
 
 const Sequelize = require('sequelize');
