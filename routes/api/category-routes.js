@@ -49,10 +49,22 @@ router.post("/", async (req, res) => {
   }
 });
 
-router.put("/:id", (req, res) => {
-  // update a category by its `id` value
-});
 
+  // update a category by its `id` value
+  router.put('/:id', async (req, res) => {
+    // Update category by ID
+    try {
+      const updateCategory = await Category.update(req.body, {
+        where: {
+          id: req.params.id,
+        }
+      });
+      res.status(200).json(updateCategory);
+    } catch (error) {
+      res.status(400).json({ message: 'Update has failed' })
+    }
+  
+  });
 
   // delete a category by its `id` value
   router.delete('/:id', async (req, res) => {
