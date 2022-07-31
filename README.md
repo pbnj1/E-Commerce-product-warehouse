@@ -1,7 +1,8 @@
 # E-Commerce-product-warehouse
 The back end support of an e-commerce site that organizes and details products
 
-acceptance criteria being met. You’ll need to submit a link to the video and add it to the readme of your project.
+Link to vide walkthrough
+https://drive.google.com/file/d/1Yx-zzqY7jZtSBM9_nf_6jUWPybuuZUER/view
 
 ## User Story
 
@@ -27,3 +28,6 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
+## Requirements
+
+MySQL2 https://www.npmjs.com/package/mysql2
