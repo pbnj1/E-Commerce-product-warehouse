@@ -30,4 +30,6 @@ THEN I am able to successfully create, update, and delete data in my database
 
 ## Requirements
 
-MySQL2 https://www.npmjs.com/package/mysql2
+[MySQL2 ](https://www.npmjs.com/package/mysql2)
+[Sequelize](https://www.npmjs.com/package/sequelize)
+[dotenv](https://www.npmjs.com/package/dotenv)
