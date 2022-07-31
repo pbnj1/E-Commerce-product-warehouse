@@ -28,8 +28,17 @@ WHEN I test API POST, PUT, and DELETE routes in Insomnia
 THEN I am able to successfully create, update, and delete data in my database
 ```
 
+## How to use this app
+
+From the command line you can start your sever with node.js.  Once in you can use the different routes established in the file
+under the "routes" folder to search, add, update or delete products and their prices, stock, and descriptions.
+
+
 ## Requirements
+[Node.js](https://nodejs.org/en/)
 
 [MySQL2 ](https://www.npmjs.com/package/mysql2)
+
 [Sequelize](https://www.npmjs.com/package/sequelize)
+
 [dotenv](https://www.npmjs.com/package/dotenv)
