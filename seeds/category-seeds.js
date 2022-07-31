@@ -1,4 +1,3 @@
-// PW THIS FILE IS COMPLETE
 
 const { Category } = require('../models');
 

@@ -1,4 +1,3 @@
-// PW THIS FILE IS COMPLETE
 
 const { Tag } = require('../models');
 

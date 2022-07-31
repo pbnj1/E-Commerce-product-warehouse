@@ -1,4 +1,3 @@
-// ROUTES SHOULD BE SET UP IN THIS FILE NOW
 
 const router = require("express").Router();
 const { Category, Product } = require("../../models");

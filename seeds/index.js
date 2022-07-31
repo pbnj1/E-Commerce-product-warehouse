@@ -1,4 +1,4 @@
-// PW THIS FILE IS COMPLETE
+
 
 const seedCategories = require('./category-seeds');
 const seedProducts = require('./product-seeds');
